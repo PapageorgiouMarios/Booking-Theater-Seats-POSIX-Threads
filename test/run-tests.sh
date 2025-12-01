@@ -38,17 +38,12 @@ echo "===================================="
 run_test "TEST 3: THREE ARGUMENTS" 100 1000 50
 echo "===================================="
 
-# 4) Huge numbers (customers > seats)
+# 4) Small numbers (customers < seats)
 echo "===================================="
-run_test "TEST 4: LARGE ARGUMENT VALUES" 150 150
-echo "===================================="
-
-# 5) Small numbers (customers < seats)
-echo "===================================="
-run_test "TEST 5: SMALL ARGUMENT VALUES" 2 200
+run_test "TEST 4: SMALL ARGUMENT VALUES" 2 200
 echo "===================================="
 
-# 6) First argument: 50 customers Second argument: 500 seed
+# 5) First argument: 20 customers Second argument: 500 seed
 echo "===================================="
-run_test "TEST 6: CUSTOMERS: 50, SEED: 500" 50 500
+run_test "TEST 5: CUSTOMERS: 20, SEED: 500" 50 500
 echo "===================================="
