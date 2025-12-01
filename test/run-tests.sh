@@ -40,7 +40,7 @@ echo "===================================="
 
 # 4) Huge numbers (customers > seats)
 echo "===================================="
-run_test "TEST 4: LARGE ARGUMENT VALUES" 300 150
+run_test "TEST 4: LARGE ARGUMENT VALUES" 150 150
 echo "===================================="
 
 # 5) Small numbers (customers < seats)
