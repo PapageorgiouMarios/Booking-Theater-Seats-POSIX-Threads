@@ -1,0 +1,10 @@
+services:
+  tests:
+    build: .
+    container_name: reservation_test
+    command: ./test/run-tests.sh
+
+  main:
+    build: .
+    container_name: reservation_main
+    command: ./main/run-main.sh
